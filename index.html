@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Document</title>
+
+</head>
+
+<body>
+
+    <div class="btn">
+
+        <button id="btnStart">COMENZAR</button>
+
+        <button id="btnStop">DETENER</button>
+
+        <textarea id="textArea" cols="30" rows="10"></textarea>
+
+    </div>
+
+    <nav>
+
+        <div class="nav-wrapper  blue darken-1">
+
+          <a href="#!" class="brand-logo">Mis notas</a>
+
+          <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+
+          <ul class="right hide-on-med-and-down">
+
+            <li><a href="index.html"><i class="material-icons">home</i>Inicio</a></li>
+
+            <li><a id="btn-archivos" href="#"><i class="material-icons">folder</i> Archivos</a></li>
+
+          </ul>
+
+        </div>
+
+    </nav>
+
+    
+
+      <ul class="sidenav blue darken-1" id="mobile-demo">
+
+        <li><a href="index.html"><i class="material-icons white-text">home</i> <span class="white-text">  Inicio </span></a></li>
+
+        <li><a id="btn-archivos" href="#"><i class="material-icons white-text">folder</i> Archivos</a></li>
+
+
+
+      </ul>
+
+              
+
+    <main class="container">
+
+
+
+        <ul class="collection">
+
+          <li class="collection-item">
+
+            <div>Alvin
+
+              <a href="#!" class="secondary-content">18/11/2022</a>
+
+            </div>
+
+          </li>
+
+            
+
+        </ul>
+
+
+
+
+
+        <div id="modal1" class="modal">
+
+          <div class="modal-content">
+
+            <h4>Nueva nota</h4>
+
+            <p>Escriba tu nota para no olvidar 😉</p>
+
+            <div class="row">
+
+              <form class="col s12">
+
+                <div class="row">
+
+                  <div class="input-field col s12">
+
+                    <textarea id="text-1" class="materialize-textarea"></textarea>
+
+                    <label for="text-1">Nota</label>
+
+                  </div>
+
+                </div>
+
+              </form>
+
+            </div>
+
+          </div>
+
+          <div class="modal-footer">
+
+            <a id="btn-save" href="#" class="modal-close waves-effect waves-green btn-flat">Guardar</a>
+
+          </div>
+
+              
+
+
+
+        </div>
+
+        <div class="fixed-action-btn">
+
+          <a id="scale-demo" href="#modal1" class="modal-trigger btn-floating btn-large scale-transition indigo darken-1 waves-effect">
+
+              <i class="material-icons">add</i>
+
+          </a>
+
+        </div>
+
+
+
+
+
+
+
+    </main>
+
+    <script src="./script.js"></script>
+
+</body>
+
+      </html>
